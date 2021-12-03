@@ -1,0 +1,350 @@
+html{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0px;
+    background-color: #000000;
+}
+.container{
+    max-width:1200px;
+    margin: 20px auto;
+    background-color:  #F4D1EA;
+}
+.header{
+    display: flex;
+    align-items: flex-end;
+}
+.headerlogo{
+    height: 150px;
+}
+.headerlogo img{
+    position:relative;
+    top: -20px;
+    width: 220px;
+    height: 200px;
+}
+.headerbar-ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.headerbar-li{
+    list-style: none;
+    background-color: #E5EE7F;
+    font-size: 1.2em;
+    font-family:  'Noto Sans TC', sans-serif ;
+    padding: 15px 40px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.headerbar-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.banner2-left p{
+    margin: 0px;
+    color: #675E5E
+    ;
+}
+.banner2-center-flex{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 5%;
+    margin-top: 8px;
+}
+.banner2-center{
+    width: 100%;
+    height: 100%;
+}
+.activity{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.activity a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.appstore-ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.appstore-li{
+    margin: 0px 10px;
+}
+.banner2-right{
+    display: flex;
+    align-items: flex-end;
+}
+.banner2-right a{
+    text-decoration: none;
+    color: #000000;
+    font-family:'Noto Sans TC', sans-serif;
+    font-weight: bold;
+}
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.news-content{
+    width: 45%;
+}
+.news1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+.news1-NEWS{
+    font-size: 3em;
+    margin: 0px;
+    font-family: 'Noto Sans TC', sans-serif ;
+    font-weight: bold;
+    color: #00BDF9;
+    margin-left: 8px;
+}
+.news1-line{
+width: 100%;
+height: 9px;
+background-color: #000000;
+margin-left: 35px;
+}
+.news1-MORE-link{
+    text-decoration:none;
+    color: #000000;
+    font-size: 1.2em;
+    font-family:  'Noto Sans TC', sans-serif ;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+.news1-MORE{
+    background-color: #FFA24D;
+    color: #134CDF;
+    opacity: 0.6;
+    padding: 10px 25px;
+}
+.news2-ul{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.news2-li{
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    background-color: #EE92D4;
+    margin: 7px;
+}
+.news2-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-family:  'Noto Sans TC', sans-serif ;
+    font-weight: bold;
+}
+.news3-ul{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.news3-li{
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    padding: 5px 0px;
+    margin:5px 20px ;
+    background-color: #13FAFA;
+    border-radius: 50%;
+}
+.news3-link1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:#BA6E6E;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:  'Noto Sans TC', sans-serif ;
+}
+.news3-link2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:#B04DFF;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:  'Noto Sans TC', sans-serif ;
+}
+.news3-link3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:#F521C7;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:  'Noto Sans TC', sans-serif ;
+}
+
+.news4-ul{
+    padding: 0px;
+    margin:0px;
+    margin-top: 5px;
+}
+.news4-li{
+    width: 100%;
+    list-style: none;
+    border-bottom:solid #000000 4px;
+    margin-top: 4px;
+}
+.news4-link{
+    width: 100%;
+    text-decoration: none;
+    color: #48DB94;
+    font-family:  'Noto Sans TC', sans-serif ;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-left: 40px;
+ 
+}
+.commit{
+    display: flex;
+    justify-content: center;
+    margin: 0px 75px;
+    margin-bottom: 4%;
+}
+.commit-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.commit-facebook{
+    width: 100%;
+}
+.commit-facebook img{
+    width: 100%;
+    height: 100%;
+}
+.commit-bahar{
+    width: 100%;
+    margin:0px 60px;
+}
+.commit-bahar img{
+    width: 100%;
+    height: 100%;
+}
+.commit-manage{
+    width: 100%;
+}
+.commit-manage img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 0px 75px;
+    padding-bottom: 8%;
+}
+.footer-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: white;
+    padding: 20px 20px;
+    padding-bottom: 40px;
+}
+.footer-left{
+display: flex;
+}
+.footer-download{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.footer-download1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 55px;
+    background-color: #CC962D;
+    opacity: 0.8;
+}
+.footer-download1 a{
+text-decoration: none;
+color:white;
+font-size: 1.5em;
+font-family:  'Noto Sans TC', sans-serif ;
+font-weight: bold;
+}
+.footer-download2{
+    margin-top: 10%;
+}
+.footer-download2 p{
+    margin: 0px;
+    line-height: 18px;
+}
+.footer-right{
+    display: flex;
+}
+.footer-about{
+display:flex ;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.footer-about-ul{
+    padding: 0px;
+    margin: 0px;
+}
+.footer-about-li{
+    list-style: none;
+}
+.footer-about-link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+    font-size:1.2em;
+    line-height: 50px
+}
